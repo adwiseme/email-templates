@@ -23,7 +23,6 @@ module.exports = {
     },
   },
   baseURL: {
-    url: 'https://docs.mailpace.com/img/',
-    tags: ['img'],
+    url: false,
   },
 }

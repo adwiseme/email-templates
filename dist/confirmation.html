@@ -45,6 +45,15 @@
 .hover-underline:hover {
   text-decoration-line: underline !important
 }
+
+.background-light {
+  background: #FFC323;
+}
+
+.font-bold {
+  font-weight: 800;
+}
+
 @media (max-width: 600px) {
   .sm-w-full {
     width: 100% !important
@@ -63,16 +72,15 @@
 }
 @media (prefers-color-scheme: dark) {
   .dark-mode-bg-gray-989 {
-    background-color: #2D2D2D !important
+    background-color: #2D2D2D !important;
   }
+
+  .dark-mode-link {
+    color: #FFC323 !important;
+  }
+
   .dark-mode-bg-gray-999 {
     background-color: #1B1C1E !important
-  }
-  .dark-mode-text-gray-979 {
-    color: #A9A9A9 !important
-  }
-  .dark-mode-text-white {
-    color: #fff !important
   }
 }</style>  </head>
   <body class="dark-mode-bg-gray-999" style="margin: 0; width: 100%; padding: 0; word-break: break-word; -webkit-font-smoothing: antialiased; background-color: #f3f4f6">      <div style="display: none">
@@ -117,7 +125,7 @@
     <p style="margin: 0; margin-bottom: 24px;">
       Możesz zalogować się do Serwisu klikając na poniższy przycisk
       lub odwiedzając naszą stronę internetową pod adresem
-      <a href="http://www.polecam/">www.polecam</a>
+      <a class="dark-mode-link" href="http://www.polecam/">www.polecam</a>
     </p>
     <a href="https://example.com" class="hover-bg-blue-600" style="display: inline-block; background-color: #3b82f6; padding-left: 24px; padding-right: 24px; padding-top: 16px; padding-bottom: 16px; text-align: center; font-size: 16px; font-weight: 600; text-transform: uppercase; color: #fff; text-decoration-line: none">
       <!--[if mso
